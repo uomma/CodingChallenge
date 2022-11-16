@@ -1,0 +1,75 @@
+body{
+  background-image: url("background.jpg");
+background-size:cover;
+
+}
+main{
+  color: white;
+}
+
+.sfondo{
+  width: 1000px;
+  margin: auto;
+  background-color: black;
+  opacity: 0.64;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.foto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.ab{
+  color: limegreen;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.row{
+  background-color: limegreen;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.subject{
+  font-size: 25px;
+}
+
+.checkbox .subject{
+  display: inline-block;
+}
+
+.location:before{
+  content: "\27FC"
+}
+
+.STbarra{
+  background-color: yellow;
+  width: 35%;
+  border-radius: 5px;
+  padding: 12.5px;
+  margin-bottom: 20px;
+}
+.NDbarra{
+  background-color: green;
+  width: 55%;
+  border-radius: 5px;
+  padding: 12.5px;
+  margin-bottom: 20px;
+}
+
+.RDbarra{
+  background-color: red;
+  width: 15%;
+  border-radius: 5px;
+  padding: 12.5px;
+  margin-bottom: 60px;
+
+}
